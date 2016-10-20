@@ -69,6 +69,7 @@ int read_current_timer(unsigned long *timer_value)
 	return 0;
 }
 
+
 void __init time_init(void)
 {
 	u32 arch_timer_rate;
